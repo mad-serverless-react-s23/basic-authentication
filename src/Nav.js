@@ -26,7 +26,7 @@ const Nave = (props) => {
                 </MenuItem.Item>
                 <MenuItem.Item key='protected'>
                     <Link to={`/protected`}>
-                        <ProtectedOutlined />Protected
+                        <FileProtectedOutlined />Protected
                     </Link>
                 </MenuItem.Item>
             </Menu>
