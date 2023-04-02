@@ -5,7 +5,7 @@ import {
     HomeOutlined, 
     ProfileOutlined, 
     FileProtectOutlined 
-} from 'ant-design/icons';
+} from 'antd-design/icons';
 
 const Nave = (props) => {
     const { current } = propsreturn (
