@@ -10,7 +10,7 @@ const Profile = () => {
 
     const [user, setUser] = useState({})
 
-    const checkUser = asyn() => {
+    const checkUser = async() => {
         try {
             const data = await Auth.currentUserPoolUser()
             const userInfo = {username: data.username, ...data.attributes}
