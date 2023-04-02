@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {
     HashRouter, 
-    Switch, 
+    Routes, 
     Route
 } from 'react-router-dom';
 
@@ -27,12 +27,12 @@ const Router = () => {
     return (
         <HashRouter>
             <Nav current={current} />
-            <Switch>
+            <Routes>
                 <Route exact path="/" Component={Public}/>
                 <Route exact path="./protected" Component={Protected}/>
                 <Route exact path="./profile" Component={Profile}/>
                 <Route Component={Public}/>
-            </Switch>
+            </Routes>
         </HashRouter>
     )
 }
