@@ -5,9 +5,9 @@ import {
     HomeOutlined, 
     ProfileOutlined, 
     FileProtectOutlined 
-} from 'ant-design/icons';
+} from '@ant-design/icons';
 
-const Nave = (props) => {
+const Nav = (props) => {
     const { current } = propsreturn (
         <div>
             <Menu 
