@@ -4,7 +4,7 @@ import { Menu } from "antd";
 import { 
     HomeOutlined, 
     ProfileOutlined, 
-    FileProtectedOutlined 
+    FileProtectOutlined 
 } from 'ant-design/icons';
 
 const Nave = (props) => {
@@ -26,7 +26,7 @@ const Nave = (props) => {
                 </MenuItem.Item>
                 <MenuItem.Item key='protected'>
                     <Link to={`/protected`}>
-                        <FileProtectedOutlined />Protected
+                        <FileProtectOutlined />Protected
                     </Link>
                 </MenuItem.Item>
             </Menu>
