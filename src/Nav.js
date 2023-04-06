@@ -8,27 +8,28 @@ import {
 } from '@ant-design/icons';
 
 const Nav = (props) => {
-    const { current } = propsreturn (
+    const { current } = props
+    return (
         <div>
             <Menu 
                 selectedKeys={[current]} 
                 mode="horizontal"
             >
-                <MenuItem.Item key='home'>
+                <Menu.Item key='home'>
                     <Link to={`/`}>
                         <HomeOutlined />Home
                     </Link>
-                </MenuItem.Item>
-                <MenuItem.Item key='profile'>
+                </Menu.Item>
+                <Menu.Item key='profile'>
                     <Link to={`profile`}>
                         <ProfileOutlined />Profile
                     </Link>
-                </MenuItem.Item>
-                <MenuItem.Item key='protected'>
+                </Menu.Item>
+                <Menu.Item key='protected'>
                     <Link to={`/protected`}>
                         <FileProtectOutlined />Protected
                     </Link>
-                </MenuItem.Item>
+                </Menu.Item>
             </Menu>
         </div>
     )
