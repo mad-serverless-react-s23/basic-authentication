@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { Menu } from "antd";
+import { Menu } from 'antd';
 import { 
     HomeOutlined, 
     ProfileOutlined, 
@@ -26,7 +26,7 @@ const Nav = (props) => {
                     </Link>
                 </Menu.Item>
                 <Menu.Item key='protected'>
-                    <Link to={'/protected'}>
+                    <Link to={'protected'}>
                         <FileProtectOutlined />Protected
                     </Link>
                 </Menu.Item>
