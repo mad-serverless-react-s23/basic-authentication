@@ -8,7 +8,7 @@ const Protected = (props) => {
             .catch(() => {
                 props.history.push('/profile')
             })
-}, [])
+    }, [])
     return (
         <Container>
             <h1>Protected route</h1>
