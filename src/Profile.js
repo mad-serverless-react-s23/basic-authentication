@@ -27,7 +27,6 @@ const Profile = () => {
                         <h1>Profile</h1>
                         <h2>UsernName: {user.username}</h2>
                         <h3>Email: {user.email}</h3>
-                        <h4>Phone: {user.phone_number}</h4>
 
                         <button onClick={ signOut }>Sign Out</button>
                     </main>
