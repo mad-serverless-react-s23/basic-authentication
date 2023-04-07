@@ -37,4 +37,4 @@ const Profile = () => {
 }
 
 export default withAuthenticator(Profile)
-//maybe - same behavior either way: export default Profile
+//another options - same behavior either way: export default Profile
